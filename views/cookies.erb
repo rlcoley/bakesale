@@ -3,20 +3,22 @@
 <div class="forsale">
 
   <div class="">
-    <h3> <%= @c1.name %> </h3>
+    <h3> <%= @cookie1.name %> </h3>
   </div>
 
   <div class="">
-    <p> $<%= @c1.price %></p>
+    <p> $<%= @cookie1.price %></p>
   </div>
 
   <div class="">
-    <p> <%= @c1.description %></p>
+    <p> <%= @cookie1.description %></p>
   </div>
 
 
   <div class="">
-    <img id="cookie" src="<%= @c1.url %>" alt="">
+    <img class="foodimg" src="<%= @cookie1.url %>" alt="">
   </div>
+  <button id="buyCookie" type="button" name="button" onclick="buyCookie()" >Add to cart</button>
+  <!-- <button id="cookieThatsIt" type="button" name="button">Is Thats It?</button> -->
 
 </div>

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,OAAO;EACL,gBAAgB,EAAE,MAAM",
-"sources": ["_navbar.scss"],
+"mappings": "AAAA,OAAO;EACL,gBAAgB,EAAE,MAAM;;ACC1B,QAAQ;EACN,UAAU,EAAE,KAAK",
+"sources": ["_navbar.scss","main.scss"],
 "names": [],
 "file": "main.css"
 }

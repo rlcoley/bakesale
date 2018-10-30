@@ -1,1 +1,22 @@
 <h1>Cakes</h1>
+<div class="forsale">
+  <div class="">
+    <h3> <%= @cake1.name %> </h3>
+  </div>
+
+  <div class="">
+    <p> $<%= @cake1.price %></p>
+  </div>
+
+  <div class="">
+    <p> <%= @cake1.description %></p>
+  </div>
+
+
+  <div class="">
+    <img class="foodimg" src="<%= @cake1.url %>" alt="">
+  </div>
+  <button type="button" name="button" onclick="getCake()" >Add to cart</button>
+
+
+</div>

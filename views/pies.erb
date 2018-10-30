@@ -1,1 +1,23 @@
 <h1>Pies</h1>
+
+<div class="forsale">
+
+  <div class="">
+    <h3> <%= @pie1.name %> </h3>
+  </div>
+
+  <div class="">
+    <p> $<%= @pie1.price %></p>
+  </div>
+
+  <div class="">
+    <p> <%= @pie1.description %></p>
+  </div>
+
+
+  <div class="">
+    <img class="foodimg" src=<%= @pie1.url %> alt="">
+  </div>
+
+  <button type="button" name="button" onclick="getPie()">Add to cart</button>
+</div>
