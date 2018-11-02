@@ -1,7 +1,133 @@
-.navbar {
-  background-color: orange; }
+body {
+  background-color: #f9f4d9; }
 
-.foodimg {
-  max-height: 400px; }
+* {
+  font-family: 'Libre Baskerville', serif; }
+
+a {
+  padding-left: 5%;
+  text-decoration: none;
+  color: brown; }
+
+h1 {
+  text-align: center; }
+
+img {
+  height: 200px; }
+
+.header {
+  margin-left: 18%;
+  width: 70%;
+  margin-top: 4%; }
+
+.links {
+  margin-left: 20%; }
+
+.cart {
+  position: relative;
+  top: -20px;
+  left: 95%;
+  width: 5%; }
+
+#logo {
+  margin-left: 4%; }
+
+#title {
+  margin-top: 10%;
+  color: brown; }
+
+h1 {
+  color: brown; }
+
+.items {
+  margin-left: 3%;
+  position: relative;
+  display: inline-block; }
+
+.home_imgs {
+  height: 400px; }
+
+.forsale {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  position: relative;
+  top: 50px;
+  left: 7%; }
+
+.cake {
+  border: 5px solid;
+  width: 60%;
+  background-color: brown;
+  border-radius: 10%; }
+
+.cakeimg {
+  margin-left: 20px;
+  width: 70%;
+  padding: 5%; }
+
+.text {
+  margin-left: 20%; }
+
+.btn {
+  margin-bottom: 4%; }
+
+.forsale {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  position: relative;
+  top: 50px;
+  left: 7%; }
+
+.pie {
+  border: 5px solid;
+  width: 60%;
+  background-color: brown;
+  border-radius: 10%; }
+
+.pieimg {
+  margin-left: 20px;
+  width: 80%;
+  padding: 5%; }
+
+.text {
+  margin-left: 20%; }
+
+.btn {
+  margin-bottom: 4%; }
+
+.forsale {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  position: relative;
+  top: 50px;
+  left: 7%; }
+
+.cookie {
+  border: 5px solid;
+  width: 60%;
+  background-color: brown;
+  border-radius: 10%; }
+
+.cookieimg {
+  width: 90%;
+  padding: 5%; }
+
+.text {
+  margin-left: 20%; }
+
+.btn {
+  margin-bottom: 4%; }
+
+.wrappper {
+  background-color: brown;
+  border-radius: 4%;
+  height: 40vh;
+  width: 40vh;
+  margin-left: 60vh;
+  margin-top: 5vh;
+  text-align: center; }
+
+.info {
+  margin-top: 10vh; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,22 +1,54 @@
 <h1>Cakes</h1>
 <div class="forsale">
-  <div class="">
-    <h3> <%= @cake1.name %> </h3>
+  <div class="cake c_one">
+    <div class="">
+      <img class="cakeimg" src="<%= @cake1.url %>" alt="">
+    </div>
+
+      <div class="text">
+        <h3> <%= @cake1.name %> </h3>
+      </div>
+
+      <div class="text">
+        <p> $<%= @cake1.price %></p>
+      </div>
+
+      <button class="text btn" type="button" name="button" onclick="getCake()" >Add to cart</button>
   </div>
 
-  <div class="">
-    <p> $<%= @cake1.price %></p>
+  <div class="cake c_two">
+    <div class="">
+      <img class="cakeimg" src="<%= @cake2.url%>" alt="">
+    </div>
+
+      <div class="text">
+        <h3> <%= @cake2.name %> </h3>
+      </div>
+
+      <div class="text">
+        <p> $<%= @cake2.price %></p>
+      </div>
+
+      <button class="text btn" type="button" name="button" onclick="getCake()">Add to cart</button>
   </div>
 
-  <div class="">
-    <p> <%= @cake1.description %></p>
-  </div>
 
+  <div class="cake c_three">
+      <div class="">
+        <img class="cakeimg" src="<%= @cake3.url%>" alt="">
+      </div>
 
-  <div class="">
-    <img class="foodimg" src="<%= @cake1.url %>" alt="">
+      <div class="text">
+        <h3> <%= @cake3.name %> </h3>
+      </div>
+
+      <div class="text">
+        <p> $<%= @cake3.price %></p>
+      </div>
+
+      <button class="text btn" type="button" name="button" onclick="getCake()">Add to cart</button>
+
   </div>
-  <button type="button" name="button" onclick="getCake()" >Add to cart</button>
 
 
 </div>

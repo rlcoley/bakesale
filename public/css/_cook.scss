@@ -1,0 +1,32 @@
+.forsale{
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  position: relative;
+  top: 50px;
+  left: 7%;
+  // grid-gap: 100px;
+
+}
+
+.cookie{
+    border: 5px solid;
+    width: 60%;
+    background-color: brown;
+    // margin-left: 20px;
+    border-radius: 10%;
+}
+
+.cookieimg{
+  // margin-left: .5%;
+  width: 90%;
+  padding: 5%;
+}
+
+.text{
+  margin-left: 20%;
+  // padding: 2%;
+}
+
+.btn{
+  margin-bottom: 4%;
+}

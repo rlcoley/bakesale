@@ -1,14 +1,22 @@
-<h3>What's in your cart?</h3>
+<div class="wrappper">
+  <!-- <div class="info"> -->
+    <h3>What's in your cart?</h3>
 
-<h4>You have...</h4>
-<p><%=@cookie%> Cookies</p>
-<p><%=@cake%> Cakes </p>
-<p><%=@pie%> Pies </p>
+    <h4>You have...</h4>
+    <p><%=@cookie%> Cookies</p>
+    <p><%=@cake%> Cakes </p>
+    <p><%=@pie%> Pies </p>
+    <p><%=@ptotal%> Total </p>
 
-
-<!-- <form action="https://formspree.io/your@email.com" method="POST" />
-<form method="POST" action="https://formspree.io/YOUREMAILHERE">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Test Message"></textarea>
-  <button type="submit">Send Test</button>
-</form> -->
+    <form action="https://formspree.io/rosscoley1002@gmail.com" method="POST" />
+    <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+      <input type="hidden" name="You Have" value="">
+      <input type="hidden" name="cookies" value="<%=@cookie%> Cookies">
+      <input type="hidden" name="cakes" value="<%=@cake%> Cakes">
+      <input type="hidden" name="pies" value="<%=@pies%> Pies">
+      <input type="email" name="email" placeholder="Your email">
+      <!-- <textarea name="message" placeholder="Test Message"></textarea> -->
+      <button type="submit">Email Order</button>
+    </form>
+  <!-- </div> -->
+</div>

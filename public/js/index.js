@@ -1,3 +1,13 @@
+// function getCake2() {
+//   // fetch("http://localhost:4567/buycake2")
+//
+//
+// }
+
+
+// function getCake2() {
+//   console.log("cliiicked");
+// }
 
 
 
@@ -10,9 +20,11 @@ function getCake() {
   fetch("http://localhost:4567/buycake")
 }
 
+
 function getPie() {
   fetch("http://localhost:4567/buypie")
 }
+
 
 // var buyCake = document.getElementById('buyCake');
 // var buyPie = document.getElementById('buyPie');

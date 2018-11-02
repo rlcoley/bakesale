@@ -1,0 +1,33 @@
+.forsale{
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  position: relative;
+  top: 50px;
+  left: 7%;
+  // background-color: red;
+  // grid-gap: 100px;
+
+}
+
+.pie{
+    border: 5px solid;
+    width: 60%;
+    background-color: brown;
+    // margin-left: 20px;
+    border-radius: 10%;
+}
+
+.pieimg{
+  margin-left: 20px;
+  width: 80%;
+  padding: 5%;
+}
+
+.text{
+  margin-left: 20%;
+  // padding: 2%;
+}
+
+.btn{
+  margin-bottom: 4%;
+}

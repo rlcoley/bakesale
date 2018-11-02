@@ -2,23 +2,58 @@
 
 <div class="forsale">
 
-  <div class="">
-    <h3> <%= @cookie1.name %> </h3>
+
+  <div class="cookie cook_one">
+    <div class="">
+      <img class="cookieimg" src="<%= @cookie1.url %>" alt="">
+    </div>
+
+    <div class="text">
+      <h3> <%= @cookie1.name %> </h3>
+    </div>
+
+    <div class="text">
+      <p> $<%= @cookie1.price %></p>
+    </div>
+    <button class="text btn" type="button" name="button" onclick="buyCookie()" >Add to cart</button>
+
   </div>
 
-  <div class="">
-    <p> $<%= @cookie1.price %></p>
+
+  <div class="cookie cook_two">
+
+    <div class="">
+      <img class="cookieimg" src="<%= @cookie2.url %>" alt="">
+    </div>
+
+    <div class="text">
+      <h3> <%= @cookie2.name %> </h3>
+    </div>
+
+    <div class="text">
+      <p> $<%= @cookie2.price %></p>
+    </div>
+
+
+    <button class="text btn" type="button" name="button" onclick="buyCookie()" >Add to cart</button>
+
   </div>
 
-  <div class="">
-    <p> <%= @cookie1.description %></p>
+
+  <div class="cookie cook_three">
+    <div class="">
+      <img class="cookieimg" src="<%= @cookie3.url %>" alt="">
+    </div>
+
+    <div class="text">
+      <h3> <%= @cookie3.name %> </h3>
+    </div>
+
+    <div class="text">
+      <p> $<%= @cookie3.price %></p>
+    </div>
+
+    <button class="text btn" type="button" name="button" onclick="buyCookie()" >Add to cart</button>
+
   </div>
-
-
-  <div class="">
-    <img class="foodimg" src="<%= @cookie1.url %>" alt="">
-  </div>
-  <button id="buyCookie" type="button" name="button" onclick="buyCookie()" >Add to cart</button>
-  <!-- <button id="cookieThatsIt" type="button" name="button">Is Thats It?</button> -->
-
 </div>
