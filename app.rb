@@ -18,11 +18,11 @@ get "/cakes" do
 
   end
 
-@cake1 = Cake.new('Chocolate cake', 10, "https://nichaliciousbaking.files.wordpress.com/2015/09/dsc07814.jpg")
+@cake1 = Cake.new('Chocolate cake', 10, "https://edgarsbakery.com/wp-content/uploads/2015/07/Prod-doubleChocoCake-510x600.jpg")
 
-@cake2 = Cake.new('Chocolate cake 2', 6, "https://nichaliciousbaking.files.wordpress.com/2015/09/dsc07814.jpg")
+@cake2 = Cake.new('Strawberry Cake ', 10 , "https://edgarsbakery.com/wp-content/uploads/2015/07/products-cakes-Strawberry2.jpg")
 
-@cake3 = Cake.new('Chocolate cake 3', 6, "https://nichaliciousbaking.files.wordpress.com/2015/09/dsc07814.jpg")
+@cake3 = Cake.new('Ava', 6, "https://edgarsbakery.com/wp-content/uploads/2015/07/Prod-avaCake-510x600.jpg")
 
   erb :cakes
 end
@@ -39,9 +39,9 @@ get "/pies" do
 
   end
 
-@pie1 = Pie.new('Apple Pie1 ', 8, "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fimg1.southernliving.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2017%2F10%2Fmain%2Farkansas_black_apple_pie_with_caramel_sauce_2540501_pieso_675.jpg%3Fitok%3DiUlqw3oU&w=700&q=85")
-@pie2 = Pie.new('Apple Pie2 ', 8, "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fimg1.southernliving.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2017%2F10%2Fmain%2Farkansas_black_apple_pie_with_caramel_sauce_2540501_pieso_675.jpg%3Fitok%3DiUlqw3oU&w=700&q=85")
-@pie3 = Pie.new('Apple Pie3 ', 8, "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fimg1.southernliving.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2F2017%2F10%2Fmain%2Farkansas_black_apple_pie_with_caramel_sauce_2540501_pieso_675.jpg%3Fitok%3DiUlqw3oU&w=700&q=85")
+@pie1 = Pie.new('Coconut Cream', 6, "http://www.perkinsrestaurants.com/wp-content/uploads/2016/02/bakery_creamPies_coconut_detail.jpg")
+@pie2 = Pie.new('Peanut Butter Silk ', 6, "http://www.perkinsrestaurants.com/wp-content/uploads/2017/05/peanutbutter-silk-pie-hero-no-nuts-388x245.jpg")
+@pie3 = Pie.new('Banana Cream', 6, "http://www.perkinsrestaurants.com/wp-content/uploads/2016/02/bakery_creamPies_banana_detail.jpg")
    erb :pies
 end
 
@@ -57,9 +57,9 @@ get "/cookies" do
 
   end
 
-@cookie1 = Cookie.new('Chocolate Chip1', 3, "https://images-gmi-pmc.edge-generalmills.com/e8198dd2-770b-4c7c-a748-ca7538cf48d0.jpg")
-@cookie2 = Cookie.new('Chocolate Chip2', 3, "https://images-gmi-pmc.edge-generalmills.com/e8198dd2-770b-4c7c-a748-ca7538cf48d0.jpg")
-@cookie3 = Cookie.new('Chocolate Chip3', 3, "https://images-gmi-pmc.edge-generalmills.com/e8198dd2-770b-4c7c-a748-ca7538cf48d0.jpg")
+@cookie1 = Cookie.new('Large Cookies', 8, "https://edgarsbakery.com/wp-content/uploads/2015/11/Prod-cookies-510x600.jpg")
+@cookie2 = Cookie.new('Cookie Sandwich', 8, "https://edgarsbakery.com/wp-content/uploads/2015/12/prod-buttercreamcookies-510x600.jpg")
+@cookie3 = Cookie.new('Thanksgiving', 6, "https://edgarsbakery.com/wp-content/uploads/2016/04/products-cookies-Turkey-510x600.jpg")
 
   erb :cookies
 end
