@@ -39,9 +39,9 @@ get "/pies" do
 
   end
 
-@pie1 = Pie.new('Coconut Cream', 6, "http://www.perkinsrestaurants.com/wp-content/uploads/2016/02/bakery_creamPies_coconut_detail.jpg")
-@pie2 = Pie.new('Peanut Butter Silk ', 6, "http://www.perkinsrestaurants.com/wp-content/uploads/2017/05/peanutbutter-silk-pie-hero-no-nuts-388x245.jpg")
-@pie3 = Pie.new('Banana Cream', 6, "http://www.perkinsrestaurants.com/wp-content/uploads/2016/02/bakery_creamPies_banana_detail.jpg")
+@pie1 = Pie.new('Coconut Cream', 12, "http://www.perkinsrestaurants.com/wp-content/uploads/2016/02/bakery_creamPies_coconut_detail.jpg")
+@pie2 = Pie.new('Peanut Butter Silk ', 10, "http://www.perkinsrestaurants.com/wp-content/uploads/2017/05/peanutbutter-silk-pie-hero-no-nuts-388x245.jpg")
+@pie3 = Pie.new('Banana Cream', 14, "http://www.perkinsrestaurants.com/wp-content/uploads/2016/02/bakery_creamPies_banana_detail.jpg")
    erb :pies
 end
 
